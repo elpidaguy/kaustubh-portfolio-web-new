@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Jost:wght@500;600;700;800&display=swap');
+
+:root {
+  /* Default Palette: Cobalt & Lime */
+  --color-primary: #3577F6;
+  --color-accent: #D2FD51;
+  --color-ink: #0E1116;
+  --color-paper: #F7F6F2;
+  --color-tint: rgba(53, 119, 246, 0.08);
+  --color-border: #0E1116;
+  --color-card-bg: #FFFFFF;
+  --shadow-hard: 6px 6px 0 var(--color-ink);
+  --shadow-sm: 3px 3px 0 var(--color-ink);
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+}
+
+[data-palette="coral-mint"] {
+  --color-primary: #FF5C35;
+  --color-accent: #4ADE80;
+  --color-ink: #0E1116;
+  --color-paper: #FDF6F0;
+  --color-tint: rgba(255, 92, 53, 0.08);
+  --color-border: #0E1116;
+  --color-card-bg: #FFFFFF;
+}
+
+[data-palette="violet-yellow"] {
+  --color-primary: #8B5CF6;
+  --color-accent: #FACC15;
+  --color-ink: #0E1116;
+  --color-paper: #F5F3FF;
+  --color-tint: rgba(139, 92, 246, 0.08);
+  --color-border: #0E1116;
+  --color-card-bg: #FFFFFF;
+}
+
+/* Theme Modes */
+[data-theme="paper"] {
+  --bg-main: var(--color-paper);
+  --text-main: var(--color-ink);
+  --card-bg: var(--color-card-bg);
+  --border-color: var(--color-ink);
+  --muted-text: #4B5563;
+  --chip-bg: rgba(53, 119, 246, 0.10);
+  --chip-text: #0E1116;
+}
+
+[data-theme="ink"] {
+  --bg-main: #0E1116;
+  --text-main: #F7F6F2;
+  --card-bg: #161B22;
+  --border-color: #30363D;
+  --muted-text: #9CA3AF;
+  --tech-tag-bg: #2D333B;
+  --chip-bg: #2D333B;
+  --chip-text: #F7F6F2;
+  --shadow-hard: 6px 6px 0 var(--color-primary);
+  --shadow-sm: 3px 3px 0 var(--color-primary);
+}
