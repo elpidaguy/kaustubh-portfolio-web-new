@@ -68,7 +68,7 @@ export interface ProfileData {
 
 export const profileData: ProfileData = {
   name: "Kaustubh Joshi",
-  profileImage: "/profile-photo.jpg",
+  profileImage: new URL("../assets/smooth_p.png", import.meta.url).href,
   title: "Full-Stack Software Engineer",
   valueProposition: "An experienced and resourceful full-stack software engineer, I use the tools and resources at my disposal to create systems that save time.",
   about: "I am a full-stack software engineer focused on end-to-end application development, upgrading traditional functionality, and integrating cloud and DevOps services for better security and faster results.",
